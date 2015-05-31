@@ -6,7 +6,7 @@ A script to fix botched usernote comment links introduced by reddit-moderator-to
 https://github.com/creesch/reddit-moderator-toolbox/issues/534
 
 When creating a usernote on a comment, Toolbox 3.1 always stored a link to the submission, not the comment. 
-This has been fixed in 3.1.1, but any comment-related usernotes saved in the two weeks between the two releases are mostly useless.
+This has been fixed in 3.1.1, but any comment-related usernotes saved before the bugfix release are mostly useless.
 
 ### Fix
 
