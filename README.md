@@ -17,6 +17,6 @@ This script checks all usernotes created between release 3.1 and 3.1.1 of reddit
 For all notes linking to a submission it searches the user's profile for removed comments in the comments section of the respective submission.
 
 - If it finds **exactly one such comment** for a usernote, it updates the usernote link to point towards that comment.
-- If it finds **more than one such comment** for a usernote, it adds a comment to a helper submission listing all the qualifying comments and updates the usernote to point towards that helper comment. The helper submission id must be manually specified. It must be in the same subreddit.
+- If it finds **more than one such comment** for a usernote, it adds a comment to a **helper submission** listing all the qualifying comments and updates the usernote to point towards that helper comment. The helper submission id must be manually specified. It is important that it is in the same subreddit.
 
 Depending on how many usernotes were created, the script may take a while. It updates the usernotes wiki page in batches. It can also be run in **dry mode** to first inspect what would happen.
